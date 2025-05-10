@@ -1,0 +1,17 @@
+[project]
+name = "recomease"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Lorenzo Gardini", email = "l.gardo98@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.2.3",
+    "sphinx>=8.2.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
