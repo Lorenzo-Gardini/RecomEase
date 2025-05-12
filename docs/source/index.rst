@@ -17,5 +17,5 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
-    API Reference <api/index>
+   API Reference <api/index>
 
