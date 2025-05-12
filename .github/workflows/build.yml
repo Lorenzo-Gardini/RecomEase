@@ -19,7 +19,7 @@ jobs:
           python-version: '3.13'
 
       - name: Install uv and dependencies
-        uses: .github/action/install_dependencies.yml
+        uses: ./.github/actions/install_dependencies
 
       - name: Run tests with coverage
         run: |
@@ -46,7 +46,7 @@ jobs:
         python-version: '3.13'
 
     - name: Install uv and dependencies
-      uses: .github/action/install_dependencies.yml
+      uses: .github/actions/actions.yml
 
     - name: Build HTML
       run: |
