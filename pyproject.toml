@@ -1,6 +1,6 @@
 [project]
 name = "recomease"
-version = "0.1.0"
+version = "1.0.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
@@ -8,8 +8,14 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "coverage>=7.8.0",
     "pandas>=2.2.3",
+    "pytest>=8.3.5",
+    "pytest-cov>=6.1.1",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
     "sphinx>=8.2.3",
+    "sphinx-rtd-theme>=3.0.2",
 ]
 
 [build-system]
